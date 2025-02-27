@@ -1,0 +1,160 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: #ddd;
+}
+/* Style the navigation bar */
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Style the profile image */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid white;
+}
+/* General section styling */
+section {
+    padding: 60px 20px; /* Increased padding */
+    text-align: center;
+    color: white;
+}
+
+
+/* About section */
+#about {
+    background-color: #444;
+}
+
+/* Projects section */
+#projects {
+    background-color: #666;
+}
+
+/* Project cards */
+.project {
+    background: #222;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%; /* Change from 50% to 80% for better mobile support */
+    max-width: 600px; /* Prevent it from becoming too wide on big screens */
+    border-radius: 10px;
+    text-align: left; /* Align text to the left */
+}
+
+/* Project title styling */
+.project h3 {
+    margin-bottom: 5px;
+}
+
+/* Section Headers */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* Contact Form Styling */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #e04e2a;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #222;
+    color: white;
+    border-radius: 8px;
+}
+input, textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background: #333;
+    color: white;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #ff6600;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #ff4500;
+}
+
